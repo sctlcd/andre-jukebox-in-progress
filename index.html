@@ -12,93 +12,149 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <!-- Page Content  -->
+  <div id="content">
+    <!-- unslider background-->
+    <div id="background" class="banner">
+      <ul>
+        <li>
+          <img src="app/assets/images/background/guitar20-min.jpg" alt="guitar20">
+        </li>
+        <li>
+          <img src="app/assets/images/background/recoder01-min.jpg" alt="recoder01">
+        </li>
+        <li>
+          <img src="app/assets/images/background/voxTrolley_01-min.jpg" alt="voxTrolley_01">
+        </li>
+      </ul>
+    </div>
+
+    <!-- mobile-header-->
+    <nav id="mobile-header" class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar-brand -->
+      <a class="navbar-brand" href="index.html">
+        <img src="app\assets\images\brand-logo\andrelogo02_small-min.png" alt="brand-logo">
+      </a>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div id="navbar-menu-items">
+          <ul class="navbar-nav uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Collaborate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Concepts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Behind the scenes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Crew</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" ">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div id="navbar-social-links">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span class="sr-only">Instagran</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-artstation"></i>
+                <span class="sr-only">Artstation</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- sidebar -->
     <nav id="sidebar">
+
       <!-- sidebar-header -->
-      <div class="sidebar-header">
+      <div id="sidebar-header" class="sidebar-header">
         <div class="sidebar-header-logo">
           <a href="index.html">
             <img src="app\assets\images\brand-logo\andrelogo02_small-min.png" alt="brand-logo">
           </a>
         </div>
-        <div class="sidebar-header-title">
-          <h3>Andre Jukebox</h3>
-          <strong>AJ</strong>
-        </div>
       </div>
 
       <!-- components -->
-      <ul class="list-unstyled components uppercase">
-        <li class="active">
-          <a href="#">Story
-          </a>
-        </li>
-        <li>
-          <a href="#">Collaborate</a>
-        </li>
-        <li>
-          <a href="#">Concepts</a>
-        </li>
-        <li>
-          <a href="#">Behind the scenes</a>
-        </li>
-        <li>
-          <a href="#">Crew</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-
-      <!-- social-links -->
-      <ul class="list-inline social-links">
-        <li class="list-inline-item">
-          <a href="" target="_blank">
-            <i class="fab fa-instagram"></i>
-            <span class="sr-only">Instagran</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="" target="_blank">
-            <i class="fab fa-artstation"></i>
-            <span class="sr-only">Artstation</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="" target="_blank">
-            <i class="fab fa-facebook"></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Page Content  -->
-    <div id="content">
-      <nav class="navbar mavbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button type="button" id="sidebarCollapse" class="btn btn-info">
-            <i class="fas fa-align-left"></i>
-          </button>
+      <div id="components">
+        <div id="menu-items">
+          <ul class="list-unstyled menu-items uppercase">
+            <li>
+              <!-- class="active"-->
+              <a href="">Story
+              </a>
+            </li>
+            <li>
+              <a href="">Collaborate</a>
+            </li>
+            <li>
+              <a href="">Concepts</a>
+            </li>
+            <li>
+              <a href="">Behind the scenes</a>
+            </li>
+            <li>
+              <a href="">Crew</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div class="banner">
-        <ul>
-          <li>
-            <img src="app/assets/images/background/guitar20-min.jpg" alt="guitar20">
-          </li>
-          <li>
-            <img src="app/assets/images/background/recoder01-min.jpg" alt="recoder01">
-          </li>
-          <li>
-            <img src="app/assets/images/background/voxTrolley_01-min.jpg" alt="voxTrolley_01">
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
+        <!-- social-links -->
+        <div id="social-links">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span class="sr-only">Instagran</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-artstation"></i>
+                <span class="sr-only">Artstation</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
   <!-- script -->
   <script src="https://kit.fontawesome.com/e576f39845.js" crossorigin="anonymous"></script>
@@ -108,17 +164,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js" integrity="sha256-5cLCHHHqQX2x3pQpjWwAtBL54U9EGWOHe8tDkXuxPTI=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
-        $('.banner').unslider({
-          autoplay: true,
-          arrow: false,
-          delay: 5000,
-          speed: 1000
-        });
-
-      $('#sidebarCollapse').on('click', function () {
-          $('#sidebar').toggleClass('active');
+      $('.banner').unslider({
+        autoplay: true,
+        arrow: false,
+        delay: 5000,
+        speed: 1000
       });
 
     });
