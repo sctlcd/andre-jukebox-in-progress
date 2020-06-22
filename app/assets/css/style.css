@@ -17,6 +17,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* ---------------------------------------------- Common --------------------------------*/
+.uppercase {
+  text-transform: uppercase;
+}
+
+.inline {
+  display: inline;
+}
+
+/* --------------------------------------------- Home page --------------------------------- */
+
+/* Background / unslider */
 #background {
   position: fixed;
   margin: 0;
@@ -27,14 +39,11 @@ body {
   height: 100vh;
 }
 
-#mobile-header {
-  position: relative;
-  background: rgba(36, 35, 33, .44)!important;
-  padding: 15px;
+.unslider-nav {
+  display: none;
 }
 
-/* On the desktops, #sidebar.active mean that the sidebar is partially collapsed (compressed version) and #sidebar only that it's visible.
-On mobiles, #sidebar.active mean the sidebar is visible and #sidebar only that's partially collapsed (compressed version). */
+/* Sidebar */
 #sidebar {
   text-align: center;
   background-color: rgba(36,35,33,.4);
@@ -46,6 +55,10 @@ On mobiles, #sidebar.active mean the sidebar is visible and #sidebar only that's
   min-height: 100vh;
   padding: 35px 20px;
   color: #fafafa;
+}
+
+#sidebar-header {
+  margin-top: 20px;
 }
 
 #sidebar .sidebar-header-logo img {
@@ -76,12 +89,19 @@ a, a:hover, a:focus {
     border-bottom: 1px solid grey;
 }
 
-.uppercase {
-  text-transform: uppercase;
+#components {
+  margin-top: 80px;
 }
 
-.unslider-nav {
-  display: none;
+#social-links {
+  margin-top: 80px;
+}
+
+/* Mobile-header */
+#mobile-header {
+  position: relative;
+  background: rgba(36, 35, 33, .44)!important;
+  padding: 15px;
 }
 
 #mobile-header {
@@ -93,17 +113,46 @@ a, a:hover, a:focus {
   width: 120px;
 }
 
-#sidebar-header {
-  margin-top: 20px;
+/*------------------------------------------ Navbar -------------------------------- */
+
+/* navbar-social-links */
+#navbar-social-links {
+  color: #fafafa;
 }
 
-#components {
+#collapsibleNavbar {
+  text-align: center;
+  min-height: 100vh;
+}
+
+#navbar-menu-items {
+  margin-top: 50px;
+}
+
+#navbar-menu-items ul.navbar-nav {
+    padding: 20px 0;
+}
+
+#navbar-menu-items .navbar-nav li a {
+    padding: 20px 0;
+    font-size: 1.1em;
+    display: block;
+    border-bottom: 1px solid grey;
+    margin: 0 70px 0 70px;
+}
+
+#navbar-menu-items ul li a:hover {
+    color: grey;
+    background: #fafafa;
+    border-bottom: 1px solid grey;
+}
+
+
+/* navbar-social-links */
+#navbar-social-links {
   margin-top: 80px;
 }
 
-#social-links {
-  margin-top: 80px;
-}
 /*------------------------------------------ Media queries -------------------------------- */
 
 @media (max-width: 768px) {
@@ -116,4 +165,8 @@ a, a:hover, a:focus {
       display: none;
     }
 
+    #mobile-header .navbar-brand img {
+      height: 60px;
+      width: 100px;
+    }
 }
