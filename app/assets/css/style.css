@@ -44,13 +44,14 @@ body {
 }
 
 /* Sidebar */
+/* logo size => ratio 1.5 */
 #sidebar {
   text-align: center;
   background-color: rgba(36,35,33,.4);
   position: fixed;
   top: 0;
   left: 0;
-  max-width: 275px;
+  max-width: 300px;
   width: 100%;
   min-height: 100vh;
   padding: 35px 20px;
@@ -62,8 +63,8 @@ body {
 }
 
 #sidebar .sidebar-header-logo img {
-  height: 100px;
-  width: 150px;
+  height: 168px;
+  width: 260px;
 }
 
 a, a:hover, a:focus {
@@ -84,8 +85,8 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: grey;
-    background: #fafafa;
+    color: #000000;
+    background: #fafafaa8;
     border-bottom: 1px solid grey;
 }
 
@@ -142,11 +143,10 @@ a, a:hover, a:focus {
 }
 
 #navbar-menu-items ul li a:hover {
-    color: grey;
-    background: #fafafa;
+  color: #000000;
+  background: #fafafaa8;
     border-bottom: 1px solid grey;
 }
-
 
 /* navbar-social-links */
 #navbar-social-links {
@@ -166,7 +166,7 @@ a, a:hover, a:focus {
     }
 
     #mobile-header .navbar-brand img {
-      height: 60px;
+      height: 65px;
       width: 100px;
     }
 }
