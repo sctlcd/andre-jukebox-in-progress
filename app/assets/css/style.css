@@ -15,6 +15,8 @@ body {
   background-repeat:repeat;
   background-size: cover;
   font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------------------------------------------- Common --------------------------------*/
@@ -151,6 +153,21 @@ a, a:hover, a:focus {
 /* navbar-social-links */
 #navbar-social-links {
   margin-top: 80px;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+/*------------------------------------------ Footer -------------------------------- */
+
+#footer {
+  flex-shrink: 0;
+  z-index: 1000;
+  color: #fafafa;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px 0 0 0;
 }
 
 /*------------------------------------------ Media queries -------------------------------- */
