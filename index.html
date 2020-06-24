@@ -11,10 +11,9 @@
   <link rel="stylesheet" href="app/assets/css/unslider.css" type="text/css">
 </head>
 
-<body>
-  <!-- Page Content  -->
-  <div id="content">
-    <!-- unslider background-->
+<body class="home">
+
+    <!-- unslider background -->
     <div id="background" class="banner">
       <ul>
         <li>
@@ -29,8 +28,8 @@
       </ul>
     </div>
 
-    <!-- mobile-header-->
-    <nav id="mobile-header" class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- navbar - for mobile/tablet devices -->
+    <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark">
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -38,10 +37,10 @@
 
       <!-- navbar-brand -->
       <a class="navbar-brand" href="index.html">
-        <img src="app\assets\images\brand-logo\andrelogo02_small-min.png" alt="brand-logo">
+        <img src="app/assets/images/brand-logo/andrelogo02_small-min.png" alt="brand-logo">
       </a>
 
-      <!-- Navbar links -->
+      <!-- navbar-menu-items -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div id="navbar-menu-items">
           <ul class="navbar-nav uppercase">
@@ -90,20 +89,20 @@
       </div>
     </nav>
 
-    <!-- sidebar -->
+    <!-- sidebar - for desktop devices -->
     <nav id="sidebar">
 
       <!-- sidebar-header -->
       <div id="sidebar-header" class="sidebar-header">
         <div class="sidebar-header-logo">
           <a href="index.html">
-            <img src="app\assets\images\brand-logo\andrelogo02_small-min.png" alt="brand-logo">
+            <img src="app/assets/images/brand-logo/andrelogo02_small-min.png" alt="brand-logo">
           </a>
         </div>
       </div>
 
       <!-- components -->
-      <div id="components">
+      <div id="sidebar-components">
         <div id="menu-items">
           <ul class="list-unstyled menu-items uppercase">
             <li>
@@ -130,7 +129,7 @@
         </div>
 
         <!-- social-links -->
-        <div id="social-links">
+        <div id="sidebar-social-links">
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a href="#" target="_blank">
@@ -154,8 +153,17 @@
         </div>
       </div>
     </nav>
-  </div>
-  <footer id="footer" class="footer">
+
+    <div id="home-content">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+  <footer id="footer" class="fixed-bottom">
     <p><i class="far fa-copyright"></i>2020 Jonathan Rodegher</p>
   </footer>
 
@@ -163,7 +171,7 @@
   <script src="https://kit.fontawesome.com/e576f39845.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js" integrity="sha256-5cLCHHHqQX2x3pQpjWwAtBL54U9EGWOHe8tDkXuxPTI=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script>
