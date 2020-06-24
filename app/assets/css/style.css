@@ -10,9 +10,9 @@ html, body {
 }
 
 body {
-  background-position:center center;
+  background-position:center;
   background-attachment:fixed;
-  background-repeat:repeat;
+  background-repeat:no-repeat;
   background-size: cover;
   font-family: 'Lato', sans-serif;
 }
